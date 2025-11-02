@@ -1,3 +1,6 @@
 # allow crawling everything by default
 User-agent: *
 Disallow:
+
+# Point crawlers to the sitemap (update domain or set VITE_SITE_URL env and serve dynamically if preferred)
+Sitemap: https://your-domain.tld/sitemap.xml
