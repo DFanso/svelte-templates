@@ -7,6 +7,9 @@ node_modules
 .wrangler
 /.svelte-kit
 /build
+ 
+# PWA (vite-plugin-pwa) dev output
+dev-dist/
 
 # OS
 .DS_Store
